@@ -56,6 +56,15 @@ export const useStore = create((set) => ({
       position: [0, -0.5, 0],
       colorableParts: ['upper', 'mesh', 'fabric', 'material', 'logo']
     },
+    {
+      name: 'Trash Bin',
+      path: '/models/basura.glb',
+      price: 25,
+      power: 0,
+      scale: 1.5,
+      position: [0, 0, 0],
+      colorableParts: ['body', 'lid', 'container']
+    },
   ],
   currentModelIndex: 0,
 
